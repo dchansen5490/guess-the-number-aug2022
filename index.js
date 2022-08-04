@@ -16,3 +16,10 @@ async function start() {
   // Now try and complete the program.
   process.exit();
 }
+
+process.stdin.on("data", handleInput);
+
+
+function handleInput(someInput) {
+  let number = someInput
+}
