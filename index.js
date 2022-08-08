@@ -36,20 +36,7 @@ async function start(){
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-   process.exit();
+  process.exit();
 
 }
 
